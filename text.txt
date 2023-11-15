@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #444;
+    border: 2px solid #555;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 320px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+.snake {
+    width: 10px;
+    height: 10px;
+    background-color: #0f0;
+    position: absolute;
+}
+
+.food {
+    width: 10px;
+    height: 10px;
+    background-color: #f00;
+    position: absolute;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.score {
+    margin-bottom: 10px;
+}
+
+.controls {
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: small;
+}
+
+button:hover {
+    background-color: #045f9c;
+}
+
+button.active {
+    background-color: #045f9c;
+    font-weight: bolder;
+}
+
+.speed-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #game-board {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #777;
+    position: relative;
+    margin: 20px auto;
+    background-color: #222;
+} */
+ <div class="container">
+        <h1>Jeu de Serpent</h1>
+        <div id="board">
+            <!-- espace du jeu -->
+            <!-- <div class="snake" id="snake-body">
+                <div id="sake-head"></div>
+            </div> -->
+        </div>
+        <div class="info">
+            <div class="score">Score : <span id="score">0</span></div>
+            <div class="level">Niveau : <span id="level">1</span></div>
+            <div class="controls">
+                <div class="speed-controls">
+                    <button class="dif">facile</button>
+                    <button class="dif active">Normale</button>
+                    <button class="dif">dificile</button>
+                </div>
+                Utilisez les flèches pour vous déplacer
+            </div>
+        </div>
+    </div>
+
+    0505760292: MR FRANCOIS

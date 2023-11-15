@@ -1,0 +1,93 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #444;
+    border: 2px solid #555;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 320px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+.snake {
+    width: 10px;
+    height: 10px;
+    background-color: #0f0;
+    position: absolute;
+}
+
+.food {
+    width: 10px;
+    height: 10px;
+    background-color: #f00;
+    position: absolute;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.score {
+    margin-bottom: 10px;
+}
+
+.controls {
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: small;
+}
+
+button:hover {
+    background-color: #045f9c;
+}
+
+button.active {
+    background-color: #045f9c;
+    font-weight: bolder;
+}
+
+.speed-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameOverMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    display: none;
+}

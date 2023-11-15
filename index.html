@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <title>Jeu de Serpent</title>
+</head>
+
+<body>
+    <h1>Jeu de Serpent</h1>
+    <div class="container">
+        <canvas id="board"></canvas>
+        <div class="info">
+            <div class="score">Score : <span id="score">0</span></div>
+            <div class="level">Niveau : <span id="level">1</span></div>
+            <div class="controls">
+                <div class="speed-controls">
+                    <button class="dif" value="easy">facile</button>
+                    <button class="dif active" value="Normale">Normale</button>
+                    <button class="dif" value="hard">hard</button>
+                </div>
+                Utilisez les flèches pour vous déplacer
+            </div>
+        </div>
+        <div id="gameOverMessage"></div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
